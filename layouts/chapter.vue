@@ -1,5 +1,5 @@
 <!--
-  章節頁 — 深藍底，大標題置中
+  章節頁 — 深藍底，大標題置中，裝飾圓圈
   用法：
   ---
   layout: chapter
@@ -9,15 +9,13 @@
   ---
 -->
 <template>
-  <div class="chapter-layout">
+  <div class="chapter-layout deco-circles-dark">
     <div class="chapter-content">
-      <div class="divider"></div>
       <p class="chapter-label">
         {{ $slidev.frontmatter.label || '第' + $slidev.frontmatter.chapter + '幕' }} · CHAPTER {{ $slidev.frontmatter.chapter }}
       </p>
       <h1 class="chapter-title">{{ $slidev.frontmatter.title }}</h1>
       <p v-if="$slidev.frontmatter.subtitle" class="chapter-subtitle">{{ $slidev.frontmatter.subtitle }}</p>
-      <div class="divider"></div>
       <slot />
     </div>
   </div>
@@ -27,39 +25,39 @@
 .chapter-layout {
   width: 100%;
   height: 100%;
-  background: var(--bg-dark, #1a1745);
+  background: var(--bg-dark, #13112b);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
-.divider {
-  width: 80px;
-  height: 3px;
-  background: var(--brand-purple, #7c3aed);
-  margin: 20px auto;
-  border-radius: 2px;
+.chapter-content {
+  position: relative;
+  z-index: 1;
+  max-width: 80%;
 }
 
 .chapter-label {
-  color: var(--brand-purple, #7c3aed);
-  font-size: 0.95rem;
+  color: var(--brand-purple-light, #a78bfa);
+  font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.15em;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .chapter-title {
   color: white;
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: 900;
   margin: 0;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 .chapter-subtitle {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.45);
   font-size: 1.1rem;
   margin-top: 20px;
 }

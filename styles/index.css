@@ -1,42 +1,129 @@
-/* 電馭工作流 — 品牌設計系統 */
+/* 電馭工作流 — 品牌設計系統 v2 */
+/* 對照原版 PPTX 設計還原 */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap');
 
 :root {
   /* 品牌色 */
   --brand-purple: #7c3aed;
+  --brand-purple-light: #a78bfa;
+  --brand-purple-bg: rgba(124, 58, 237, 0.06);
   --brand-orange: #ea580c;
   --brand-red: #dc2626;
+  --brand-blue: #1d6fa5;
 
   /* 頁面背景 */
-  --bg-dark: #1a1745;
+  --bg-dark: #13112b;
+  --bg-dark-card: rgba(255, 255, 255, 0.06);
   --bg-light: #fafafa;
-  --bg-blue: #1e3a5f;
+  --bg-purple: #7c3aed;
+  --bg-blue: #1a5276;
 
   /* 文字 */
   --text-dark: #1a1a1a;
-  --text-light: #f5f5f5;
+  --text-body: #4b5563;
   --text-muted: #9ca3af;
+  --text-light: #f5f5f5;
 
   /* 字體 */
-  --font-heading: 'Noto Sans TC', 'PingFang TC', sans-serif;
-  --font-body: 'Noto Sans TC', 'PingFang TC', sans-serif;
+  --font-main: 'Noto Sans TC', 'PingFang TC', -apple-system, sans-serif;
+
+  /* 間距 */
+  --slide-padding: 60px 80px;
 }
 
-/* 全域字體 */
+/* ========== 全域 ========== */
+
 .slidev-layout {
-  font-family: var(--font-body);
+  font-family: var(--font-main) !important;
+  position: relative;
+  overflow: hidden;
 }
 
 h1, h2, h3 {
-  font-family: var(--font-heading);
-  font-weight: 900;
+  font-family: var(--font-main) !important;
+  font-weight: 900 !important;
+  line-height: 1.3 !important;
 }
 
-/* 標籤樣式 */
+/* ========== 裝飾圓圈 ========== */
+/* 白底頁的左上裝飾 */
+.deco-circles::before,
+.deco-circles::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.deco-circles::before {
+  width: 120px;
+  height: 120px;
+  top: -30px;
+  left: -30px;
+  background: rgba(124, 58, 237, 0.08);
+}
+
+.deco-circles::after {
+  width: 60px;
+  height: 60px;
+  top: 60px;
+  left: 80px;
+  background: rgba(124, 58, 237, 0.05);
+}
+
+/* 深色頁裝飾圓圈 */
+.deco-circles-dark::before,
+.deco-circles-dark::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.deco-circles-dark::before {
+  width: 140px;
+  height: 140px;
+  top: -40px;
+  right: -40px;
+  background: rgba(124, 58, 237, 0.15);
+}
+
+.deco-circles-dark::after {
+  width: 80px;
+  height: 80px;
+  bottom: 40px;
+  left: 30px;
+  background: rgba(124, 58, 237, 0.08);
+}
+
+/* ========== 大型裝飾圖示 ========== */
+.deco-icon {
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12rem;
+  opacity: 0.08;
+  z-index: 0;
+  line-height: 1;
+  pointer-events: none;
+  color: var(--brand-purple);
+}
+
+.deco-icon-dark {
+  color: rgba(255, 255, 255, 0.08);
+  opacity: 1;
+}
+
+/* ========== 標籤 ========== */
 .label {
   display: inline-block;
   padding: 4px 16px;
   border-radius: 20px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.05em;
 }
@@ -52,62 +139,228 @@ h1, h2, h3 {
 }
 
 .label-red {
-  background: rgba(220, 38, 38, 0.1);
-  border: 1px solid var(--brand-red);
+  background: rgba(220, 38, 38, 0.08);
+  border: 1px solid rgba(220, 38, 38, 0.3);
   color: var(--brand-red);
 }
 
-/* 引言區塊（紫色左框線） */
-.quote-block {
-  border-left: 3px solid var(--brand-purple);
-  padding: 16px 20px;
-  background: rgba(124, 58, 237, 0.05);
-  border-radius: 0 8px 8px 0;
-  margin: 12px 0;
-  font-size: 0.95rem;
-  color: #374151;
+.label-blue {
+  background: var(--brand-blue);
+  color: white;
 }
 
-/* CTA 提示文字 */
-.cta-text {
-  color: var(--brand-orange);
-  font-weight: 600;
+.label-outline {
+  background: transparent;
+  border: 1.5px solid var(--brand-purple);
+  color: var(--brand-purple);
 }
 
-/* 損失金額卡片 */
+/* ========== 卡片 ========== */
+.card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 20px 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.card-dark {
+  background: var(--bg-dark-card);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 16px 24px;
+}
+
+.card-danger {
+  background: rgba(220, 38, 38, 0.04);
+  border: 1px solid rgba(220, 38, 38, 0.15);
+  border-radius: 16px;
+  padding: 20px 24px;
+}
+
+.card-purple {
+  background: var(--brand-purple-bg);
+  border: 1px solid rgba(124, 58, 237, 0.15);
+  border-radius: 16px;
+  padding: 20px 24px;
+}
+
+/* ========== 損失金額 ========== */
 .damage-card {
-  background: rgba(220, 38, 38, 0.05);
-  border: 1px solid rgba(220, 38, 38, 0.2);
+  background: rgba(220, 38, 38, 0.04);
+  border: 1px solid rgba(220, 38, 38, 0.15);
   border-radius: 12px;
   padding: 16px 24px;
 }
 
 .damage-card .amount {
   color: var(--brand-red);
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 900;
+  line-height: 1.2;
 }
 
-/* 資訊卡片 */
-.info-card {
+/* ========== 模擬 UI ========== */
+
+/* 模擬通知卡片 */
+.mock-notification {
   background: white;
   border: 1px solid #e5e7eb;
   border-radius: 12px;
-  padding: 16px 20px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
-/* 頁碼 */
-.slidev-page-number {
-  color: var(--text-muted);
+.mock-notification .mock-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+/* 模擬聊天氣泡 */
+.chat-bubble {
+  padding: 10px 16px;
+  border-radius: 16px;
+  max-width: 280px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.chat-bubble-user {
+  background: var(--brand-purple);
+  color: white;
+  border-bottom-right-radius: 4px;
+  margin-left: auto;
+}
+
+.chat-bubble-ai {
+  background: #f3f4f6;
+  color: #374151;
+  border-bottom-left-radius: 4px;
+}
+
+/* 模擬流程卡 */
+.mock-flow-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+}
+
+.mock-flow-card .flow-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 0.75rem;
+  flex-shrink: 0;
 }
 
-/* 分隔線 */
+/* ========== CTA ========== */
+.cta-text {
+  color: var(--brand-orange);
+  font-weight: 700;
+}
+
+/* ========== 引言 ========== */
+.quote-block {
+  border-left: 3px solid var(--brand-purple);
+  padding: 16px 20px;
+  background: rgba(124, 58, 237, 0.04);
+  border-radius: 0 12px 12px 0;
+  margin: 12px 0;
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+/* ========== 分隔線 ========== */
 .divider {
   width: 60px;
   height: 3px;
   background: var(--brand-purple);
-  margin: 16px auto;
   border-radius: 2px;
+}
+
+/* ========== 頁碼 ========== */
+.slidev-page-number {
+  color: var(--text-muted) !important;
+  font-size: 0.7rem !important;
+}
+
+/* ========== 金字塔 ========== */
+.pyramid-bar {
+  border-radius: 8px;
+  padding: 12px 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+/* ========== 四象限 ========== */
+.quadrant {
+  border-radius: 16px;
+  padding: 24px;
+  min-height: 140px;
+}
+
+.quadrant-good {
+  background: rgba(124, 58, 237, 0.08);
+}
+
+.quadrant-bad {
+  background: #fafafa;
+}
+
+/* ========== Checklist 樣式 ========== */
+.checklist-item {
+  background: #1a1a2e;
+  border-radius: 12px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: white;
+}
+
+.checklist-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 0.85rem;
+}
+
+/* ========== 價格 ========== */
+.price-big {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.price-strike {
+  text-decoration: line-through;
+  color: var(--text-muted);
+}
+
+/* ========== v-clicks 動畫增強 ========== */
+.slidev-vclick-target {
+  transition: all 0.4s ease;
 }

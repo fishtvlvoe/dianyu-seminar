@@ -1,24 +1,20 @@
 <!--
-  故事/內容頁 — 白底，左文右圖 icon
+  故事/內容頁 — 白底 + 左文 + 右側大型半透明圖示
   用法：
   ---
   layout: story
   label: 第一次低潮
-  icon: 🏪  （選填，或用 public/brand/ 下的 SVG）
+  icon: 🏪
   ---
-  # 退伍，開了一家化妝品店
-
-  - 退伍金 30 萬 → 開店 → 不到兩年失敗
-  - 刷信用卡進貨 + 買房 → 欠債 3-400 萬
 -->
 <template>
-  <div class="story-layout">
-    <div class="story-left">
+  <div class="story-layout deco-circles">
+    <div class="story-content">
       <p v-if="$slidev.frontmatter.label" class="story-label">{{ $slidev.frontmatter.label }}</p>
       <slot />
     </div>
-    <div v-if="$slidev.frontmatter.icon" class="story-right">
-      <span class="story-icon">{{ $slidev.frontmatter.icon }}</span>
+    <div v-if="$slidev.frontmatter.icon" class="story-deco-icon" aria-hidden="true">
+      {{ $slidev.frontmatter.icon }}
     </div>
   </div>
 </template>
@@ -31,23 +27,15 @@
   display: flex;
   align-items: center;
   padding: 60px 80px;
-  gap: 40px;
+  position: relative;
+  overflow: hidden;
 }
 
-.story-left {
+.story-content {
   flex: 1;
-}
-
-.story-right {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.story-icon {
-  font-size: 10rem;
-  opacity: 0.15;
+  max-width: 60%;
+  position: relative;
+  z-index: 1;
 }
 
 .story-label {
@@ -55,12 +43,24 @@
   font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.05em;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.story-deco-icon {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14rem;
+  opacity: 0.07;
+  z-index: 0;
+  line-height: 1;
+  pointer-events: none;
 }
 
 .story-layout :deep(h1) {
   color: var(--text-dark, #1a1a1a);
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: 900;
   margin: 0 0 20px 0;
   line-height: 1.3;
@@ -73,20 +73,21 @@
 }
 
 .story-layout :deep(li) {
-  color: #4b5563;
-  font-size: 1.1rem;
-  line-height: 1.8;
-  padding-left: 0;
+  color: var(--text-body, #4b5563);
+  font-size: 1.05rem;
+  line-height: 2;
+}
+
+.story-layout :deep(li::before) {
+  content: '→ ';
+  color: var(--brand-purple, #7c3aed);
+  font-weight: 700;
+  margin-right: 4px;
 }
 
 .story-layout :deep(p) {
-  color: #4b5563;
-  font-size: 1.1rem;
+  color: var(--text-body, #4b5563);
+  font-size: 1.05rem;
   line-height: 1.8;
-}
-
-.story-layout :deep(.cta-text) {
-  color: var(--brand-orange, #ea580c);
-  font-weight: 600;
 }
 </style>
