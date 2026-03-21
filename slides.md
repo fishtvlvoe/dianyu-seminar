@@ -185,14 +185,10 @@ to: 開放
 subtitle: 三段失敗故事（全部保留不動）
 note: 「你憑什麼？」→「你跟我一樣，你也摔過」
 ---
-
----
 layout: chapter
 chapter: 1
 title: 三段人生故事
 subtitle: 從 20 幾歲到 48 歲的迴圈
----
-
 ---
 layout: story
 label: 第一次低潮
@@ -269,8 +265,6 @@ chapter: 2
 title: 合夥失敗
 subtitle: 想幫助更多人，找了合夥人
 ---
-
----
 layout: story
 label: 第二次低潮 · 繼續
 icon: 💸
@@ -308,8 +302,6 @@ label: 第三次低潮
 chapter: 3
 title: 詐騙
 subtitle: 一次業配，改變了一切
----
-
 ---
 layout: story
 label: 第三次低潮
@@ -394,13 +386,9 @@ to: 共鳴
 subtitle: 痛點 → 根因 → 新路徑
 note: 「原來不是我的問題」
 ---
-
----
 layout: chapter
 chapter: 1
 title: 你是不是也這樣？
----
-
 ---
 layout: story
 label: 痛點
@@ -570,8 +558,6 @@ layout: quote
 layout: chapter
 chapter: 2
 title: 問題不在你，是工作流程有問題
----
-
 ---
 layout: quote
 ---
@@ -775,8 +761,6 @@ from: 開放
 to: 興奮
 subtitle: 社群許願 + 互動 + 四象限
 note: 「原來大家都一樣」→「他懂我」
----
-
 ---
 
 # 他們許了什麼願？
@@ -1141,8 +1125,6 @@ from: 興奮
 to: 猶豫
 subtitle: Demo + 三面牆 + 見證
 note: 「我也做得到」
----
-
 ---
 layout: quote
 ---
@@ -1583,8 +1565,6 @@ subtitle: 課程 + 報價
 note: 「值不值得？」→「我要報名」
 ---
 
----
-
 # 我負責教，你負責練
 
 <div class="flex flex-col items-center justify-center h-4/5 text-center">
@@ -1637,8 +1617,6 @@ layout: chapter
 chapter: 1
 title: 這是一門學科，不是一堂課
 subtitle: 就像心理學、物理學——持續不斷用到的
----
-
 ---
 
 # 四層學習架構
@@ -2064,8 +2042,6 @@ from: 確定
 to: 行動
 subtitle: CTA + QFA + 私域
 note: 「我要報名」→「我已經報名了」
----
-
 ---
 
 # 你唯一需要做的
