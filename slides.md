@@ -73,7 +73,6 @@ layout: story
 label: 關於老魚
 icon: 🐟
 
-<!-- -->
 
 ---
 
@@ -186,7 +185,6 @@ to: 開放
 subtitle: 三段失敗故事（全部保留不動）
 note: 「你憑什麼？」→「你跟我一樣，你也摔過」
 
-<!-- -->
 
 ---
 layout: chapter
@@ -194,14 +192,12 @@ chapter: 1
 title: 三段人生故事
 subtitle: 從 20 幾歲到 48 歲的迴圈
 
-<!-- -->
 
 ---
 layout: story
 label: 第一次低潮
 icon: 🏪
 
-<!-- -->
 
 ---
 
@@ -219,7 +215,6 @@ icon: 🏪
 layout: story
 label: 第一次低潮 · 繼續
 
-<!-- -->
 
 ---
 
@@ -227,13 +222,13 @@ label: 第一次低潮 · 繼續
 
 <div class="grid grid-cols-2 gap-8">
   <div>
-    <v-clicks>
+<v-clicks>
 
-    - 債務 3-400 萬，還不出來
-    - 銀行每天打來，就像關不掉的鬧鐘
-    - 存證信函一封封寄到家，告訴媽媽：你兒子欠錢了
+- 債務 3-400 萬，還不出來
+- 銀行每天打來，就像關不掉的鬧鐘
+- 存證信函一封封寄到家，告訴媽媽：你兒子欠錢了
 
-    </v-clicks>
+</v-clicks>
   </div>
   <div class="flex flex-col gap-4">
     <div class="label label-red self-end">債務 3～400 萬</div>
@@ -260,7 +255,6 @@ layout: story
 label: 轉折點
 icon: 📚
 
-<!-- -->
 
 ---
 
@@ -281,14 +275,12 @@ chapter: 2
 title: 合夥失敗
 subtitle: 想幫助更多人，找了合夥人
 
-<!-- -->
 
 ---
 layout: story
 label: 第二次低潮 · 繼續
 icon: 💸
 
-<!-- -->
 
 ---
 
@@ -307,7 +299,6 @@ layout: story
 label: 第二次低潮 · 最低點
 icon: 🎊
 
-<!-- -->
 
 ---
 
@@ -328,13 +319,11 @@ chapter: 3
 title: 詐騙
 subtitle: 一次業配，改變了一切
 
-<!-- -->
 
 ---
 layout: story
 label: 第三次低潮
 
-<!-- -->
 
 ---
 
@@ -342,13 +331,13 @@ label: 第三次低潮
 
 <div class="grid grid-cols-2 gap-8">
   <div>
-    <v-clicks>
+<v-clicks>
 
-    - 前女友賠了 20 幾萬
-    - 自己前後投了 70-80 萬
-    - 合計快 100 萬
+- 前女友賠了 20 幾萬
+- 自己前後投了 70-80 萬
+- 合計快 100 萬
 
-    </v-clicks>
+</v-clicks>
   </div>
   <div class="flex flex-col gap-3">
     <div class="label label-red self-end">資金盤詐騙</div>
@@ -372,7 +361,6 @@ layout: story
 label: 反思
 icon: 🔄
 
-<!-- -->
 
 ---
 
@@ -391,7 +379,6 @@ layout: story
 label: 轉折
 icon: 🧭
 
-<!-- -->
 
 ---
 
@@ -412,7 +399,6 @@ icon: 🧭
 ---
 layout: quote
 
-<!-- -->
 
 ---
 
@@ -426,21 +412,18 @@ to: 共鳴
 subtitle: 痛點 → 根因 → 新路徑
 note: 「原來不是我的問題」
 
-<!-- -->
 
 ---
 layout: chapter
 chapter: 1
 title: 你是不是也這樣？
 
-<!-- -->
 
 ---
 layout: story
 label: 痛點
 icon: ✍️
 
-<!-- -->
 
 ---
 
@@ -482,7 +465,7 @@ icon: ✍️
 
 <div class="flex items-center justify-center h-4/5">
   <div class="w-full max-w-lg space-y-3">
-    <v-clicks>
+<v-clicks>
     <div class="info-card flex items-center gap-3 opacity-50">
       <span class="text-lg">📧</span>
       <div class="text-sm text-gray-500">Re: Re: Re: 關於上週的提案...</div>
@@ -504,14 +487,13 @@ icon: ✍️
       <span class="ml-auto text-xs text-red-400">14:22</span>
     </div>
     <div class="text-center text-gray-400 text-sm">還有 47 封未讀…</div>
-    </v-clicks>
+</v-clicks>
   </div>
 </div>
 
 ---
 layout: quote
 
-<!-- -->
 
 ---
 
@@ -524,11 +506,11 @@ layout: quote
 <div class="flex items-center justify-center h-4/5">
   <div class="max-w-xl text-center">
     <div class="text-6xl mb-8">😮‍💨</div>
-    <v-clicks>
+<v-clicks>
     <p class="text-2xl text-gray-700 mb-4">下班了，但腦袋還開著</p>
     <p class="text-xl text-gray-500 mb-4">做了一天，不確定老闆滿不滿意</p>
     <p class="text-xl text-gray-500">不確定方向對不對，但又不敢停下來</p>
-    </v-clicks>
+</v-clicks>
   </div>
 </div>
 
@@ -538,7 +520,7 @@ layout: quote
 
 <div class="flex items-center justify-center h-4/5">
   <div class="flex items-center gap-4 flex-wrap justify-center">
-    <v-clicks>
+<v-clicks>
     <div class="info-card text-center px-6 py-4">
       <div class="text-3xl mb-2">🛒</div>
       <div class="font-bold text-gray-800">買課</div>
@@ -560,14 +542,13 @@ layout: quote
     </div>
     <div class="text-3xl text-gray-400">→</div>
     <div class="text-purple-600 font-black text-xl">循環</div>
-    </v-clicks>
+</v-clicks>
   </div>
 </div>
 
 ---
 layout: quote
 
-<!-- -->
 
 ---
 
@@ -579,7 +560,7 @@ layout: quote
 
 <div class="flex items-center justify-center h-4/5">
   <div class="max-w-xl w-full space-y-4">
-    <v-clicks>
+<v-clicks>
     <div class="info-card border-l-4 border-red-400">
       <p class="text-gray-700">「我知道要改，但要從哪裡開始？」</p>
     </div>
@@ -592,7 +573,7 @@ layout: quote
     <div class="quote-block">
       <p class="font-bold text-purple-700">真正的障礙不是懶，是摩擦力太高</p>
     </div>
-    </v-clicks>
+</v-clicks>
   </div>
 </div>
 
@@ -614,12 +595,10 @@ layout: chapter
 chapter: 2
 title: 問題不在你，是工作流程有問題
 
-<!-- -->
 
 ---
 layout: quote
 
-<!-- -->
 
 ---
 
@@ -631,7 +610,7 @@ layout: quote
 
 <div class="grid grid-cols-2 gap-8 h-4/5">
   <div class="flex flex-col justify-center space-y-4">
-    <v-clicks>
+<v-clicks>
     <div class="info-card">
       <p class="text-sm text-gray-500 mb-1">早上 7:02</p>
       <p class="text-gray-700">「昨天那個提案，老闆有說什麼嗎？」</p>
@@ -644,7 +623,7 @@ layout: quote
       <p class="text-sm text-gray-500 mb-1">晚上 22:47</p>
       <p class="text-gray-700">「明天早上九點前要交報告」</p>
     </div>
-    </v-clicks>
+</v-clicks>
   </div>
   <div v-click class="flex flex-col justify-center">
     <div class="quote-block">
@@ -659,7 +638,6 @@ layout: story
 label: 根因 ①
 icon: ❓
 
-<!-- -->
 
 ---
 
@@ -682,7 +660,6 @@ layout: story
 label: 根因 ②
 icon: 🧩
 
-<!-- -->
 
 ---
 
@@ -705,7 +682,6 @@ layout: story
 label: 根因 ③
 icon: 🔄
 
-<!-- -->
 
 ---
 
@@ -726,7 +702,6 @@ icon: 🔄
 ---
 layout: quote
 
-<!-- -->
 
 ---
 
@@ -737,7 +712,6 @@ layout: quote
 ---
 layout: quote
 
-<!-- -->
 
 ---
 
@@ -748,7 +722,6 @@ layout: quote
 ---
 layout: quote
 
-<!-- -->
 
 ---
 
@@ -759,7 +732,6 @@ layout: quote
 ---
 layout: quote
 
-<!-- -->
 
 ---
 
@@ -772,7 +744,7 @@ layout: quote
 <div class="grid grid-cols-2 gap-12 h-4/5">
   <div class="flex flex-col justify-center">
     <h2 class="text-xl font-black text-gray-500 mb-6">傳統學習</h2>
-    <v-clicks>
+<v-clicks>
     <div class="space-y-3">
       <div class="info-card opacity-60">先學理論</div>
       <div class="text-center text-gray-400">↓</div>
@@ -781,11 +753,11 @@ layout: quote
       <div class="info-card opacity-60">等有機會應用</div>
       <div class="text-center text-red-400 text-sm mt-2">⚠️ 大部分知識在等待中消失</div>
     </div>
-    </v-clicks>
+</v-clicks>
   </div>
   <div class="flex flex-col justify-center">
     <h2 class="text-xl font-black text-purple-600 mb-6">電馭學習</h2>
-    <v-clicks>
+<v-clicks>
     <div class="space-y-3">
       <div class="info-card border-purple-200">先解決眼前的問題</div>
       <div class="text-center text-purple-400">↓</div>
@@ -794,7 +766,7 @@ layout: quote
       <div class="info-card border-purple-200">系統化，可複製</div>
       <div class="text-center text-green-500 text-sm mt-2">✅ 學了馬上用，越用越快</div>
     </div>
-    </v-clicks>
+</v-clicks>
   </div>
 </div>
 
@@ -833,7 +805,6 @@ layout: quote
 ---
 layout: quote
 
-<!-- -->
 
 ---
 
@@ -847,7 +818,6 @@ to: 興奮
 subtitle: 社群許願 + 互動 + 四象限
 note: 「原來大家都一樣」→「他懂我」
 
-<!-- -->
 
 ---
 
@@ -894,11 +864,11 @@ note: 「原來大家都一樣」→「他懂我」
 <div class="flex flex-col items-center justify-center h-4/5 text-center">
   <p class="text-2xl text-gray-700 mb-8">花三秒鐘想一下</p>
   <div class="flex gap-8 text-5xl font-black text-purple-600">
-    <v-clicks>
+<v-clicks>
     <span>3</span>
     <span>2</span>
     <span>1</span>
-    </v-clicks>
+</v-clicks>
   </div>
   <div v-click class="mt-8 cta-text text-lg">打在留言區</div>
 </div>
@@ -941,7 +911,6 @@ note: 「原來大家都一樣」→「他懂我」
 ---
 layout: quote
 
-<!-- -->
 
 ---
 
@@ -953,7 +922,7 @@ layout: quote
 
 <div class="grid grid-cols-2 gap-10 h-4/5">
   <div class="flex flex-col justify-center">
-    <v-clicks>
+<v-clicks>
     <div class="quote-block mb-4">
       「幫我寫一篇文案」
     </div>
@@ -962,7 +931,7 @@ layout: quote
       <p class="text-gray-600 text-sm">AI 輸出：通用模板，沒有個人風格，跟你的業務完全不搭</p>
     </div>
     <p class="text-red-500 font-bold">「果然 AI 沒用」</p>
-    </v-clicks>
+</v-clicks>
   </div>
   <div v-click class="flex flex-col justify-center">
     <div class="quote-block border-purple-300">
@@ -980,17 +949,17 @@ layout: quote
 <div class="grid grid-cols-2 gap-8 h-4/5">
   <div class="flex flex-col justify-center space-y-4">
     <h3 class="text-lg font-bold text-red-500">❌ 我們習慣這樣問</h3>
-    <v-clicks>
+<v-clicks>
     <div class="damage-card text-sm">「幫我寫文案」</div>
     <div class="damage-card text-sm">「分析一下這個問題」</div>
     <div class="damage-card text-sm">「幫我回這封 Email」</div>
-    </v-clicks>
+</v-clicks>
   </div>
   <div class="flex flex-col justify-center space-y-4">
     <h3 class="text-lg font-bold text-purple-600">✅ 應該這樣問</h3>
-    <v-clicks>
+<v-clicks>
     <div class="info-card text-sm border-purple-200">「幫我寫一篇給 35 歲上班族看的 IG 文案，主題是省時間，語氣輕鬆，200字以內」</div>
-    </v-clicks>
+</v-clicks>
   </div>
 </div>
 
@@ -1055,7 +1024,7 @@ layout: quote
 <div class="grid grid-cols-2 gap-10 h-4/5">
   <div class="flex flex-col justify-center">
     <h3 class="text-red-500 font-bold mb-4">❌ 原本的樣子</h3>
-    <v-clicks>
+<v-clicks>
     <div class="space-y-2">
       <div class="info-card text-sm opacity-60">Notes 筆記</div>
       <div class="info-card text-sm opacity-60">LINE 訊息</div>
@@ -1063,7 +1032,7 @@ layout: quote
       <div class="info-card text-sm opacity-60">白板 / 便利貼</div>
       <div class="info-card text-sm opacity-60">腦袋裡（最危險）</div>
     </div>
-    </v-clicks>
+</v-clicks>
   </div>
   <div class="flex flex-col justify-center">
     <h3 class="text-purple-600 font-bold mb-4">✅ 統一入口</h3>
@@ -1110,7 +1079,7 @@ layout: quote
 <div class="grid grid-cols-2 gap-10 h-4/5">
   <div class="flex flex-col justify-center">
     <h3 class="text-purple-600 font-bold mb-4">你負責</h3>
-    <v-clicks>
+<v-clicks>
     <div class="space-y-3">
       <div class="info-card border-purple-200">
         <div class="font-bold text-gray-800">判斷方向</div>
@@ -1125,11 +1094,11 @@ layout: quote
         <div class="text-gray-500 text-sm">這件事需要人情溫度</div>
       </div>
     </div>
-    </v-clicks>
+</v-clicks>
   </div>
   <div class="flex flex-col justify-center">
     <h3 class="text-orange-500 font-bold mb-4">AI 負責</h3>
-    <v-clicks>
+<v-clicks>
     <div class="space-y-3">
       <div class="info-card border-orange-200">
         <div class="font-bold text-gray-800">產出初稿</div>
@@ -1144,7 +1113,7 @@ layout: quote
         <div class="text-gray-500 text-sm">任何時間都能啟動</div>
       </div>
     </div>
-    </v-clicks>
+</v-clicks>
   </div>
 </div>
 
@@ -1177,7 +1146,6 @@ layout: quote
 ---
 layout: quote
 
-<!-- -->
 
 ---
 
@@ -1190,25 +1158,25 @@ layout: quote
 <div class="grid grid-cols-2 gap-8 h-4/5">
   <div class="flex flex-col justify-center">
     <h3 class="text-red-500 font-bold mb-4">交給 AI</h3>
-    <v-clicks>
+<v-clicks>
     <div class="space-y-2">
       <div class="damage-card text-sm">重複性的格式整理</div>
       <div class="damage-card text-sm">初稿產出</div>
       <div class="damage-card text-sm">資料彙整與分析</div>
       <div class="damage-card text-sm">排程與提醒</div>
     </div>
-    </v-clicks>
+</v-clicks>
   </div>
   <div class="flex flex-col justify-center">
     <h3 class="text-purple-600 font-bold mb-4">你來做</h3>
-    <v-clicks>
+<v-clicks>
     <div class="space-y-2">
       <div class="info-card text-sm border-purple-200">創意發想與策略</div>
       <div class="info-card text-sm border-purple-200">跟人建立信任</div>
       <div class="info-card text-sm border-purple-200">最終判斷與決策</div>
       <div class="info-card text-sm border-purple-200">只有你能做的事</div>
     </div>
-    </v-clicks>
+</v-clicks>
   </div>
 </div>
 
@@ -1220,12 +1188,10 @@ to: 猶豫
 subtitle: Demo + 三面牆 + 見證
 note: 「我也做得到」
 
-<!-- -->
 
 ---
 layout: quote
 
-<!-- -->
 
 ---
 
@@ -1386,12 +1352,12 @@ layout: quote
   <div class="flex flex-col justify-center">
     <div class="text-4xl mb-4">🎁</div>
     <h2 class="text-2xl font-black text-gray-800 mb-4">「語音轉文章」Skill</h2>
-    <v-clicks>
+<v-clicks>
     <p class="text-gray-600 mb-2">說完話直接出文章</p>
     <p class="text-gray-600 mb-2">自動符合你的風格</p>
     <p class="text-gray-600 mb-6">一次設定，永久使用</p>
     <p class="cta-text font-bold">掃碼加社群，免費領取</p>
-    </v-clicks>
+</v-clicks>
   </div>
   <div class="flex items-center justify-center">
     <div class="info-card w-48 h-48 flex items-center justify-center">
@@ -1498,7 +1464,6 @@ layout: quote
 ---
 layout: quote
 
-<!-- -->
 
 ---
 
@@ -1533,7 +1498,7 @@ layout: quote
 
 <div class="flex flex-col items-center justify-center h-4/5 text-center">
   <div class="max-w-xl">
-    <v-clicks>
+<v-clicks>
     <div class="damage-card mb-6">
       <p class="text-gray-700">「我不會寫提示詞」</p>
       <p class="text-gray-500 text-sm mt-1">→ Skill 幫你把格式記好了</p>
@@ -1546,7 +1511,7 @@ layout: quote
       <p class="text-purple-700 font-bold text-xl">唯一需要的：會說話</p>
       <p class="text-gray-600 text-sm mt-2">會說話，就能用電馭工作流</p>
     </div>
-    </v-clicks>
+</v-clicks>
   </div>
 </div>
 
@@ -1578,7 +1543,6 @@ layout: quote
 ---
 layout: quote
 
-<!-- -->
 
 ---
 
@@ -1642,7 +1606,7 @@ layout: quote
 
 <div class="flex items-center justify-center h-4/5">
   <div class="grid grid-cols-3 gap-8 w-full max-w-2xl">
-    <v-clicks>
+<v-clicks>
     <div class="info-card text-center py-8">
       <div class="text-purple-600 font-black text-3xl">2,000</div>
       <div class="text-gray-400 text-xl">→</div>
@@ -1658,7 +1622,7 @@ layout: quote
       <div class="text-purple-600 font-black text-3xl">100萬+</div>
       <div class="text-gray-500 text-sm mt-2">單篇觸及</div>
     </div>
-    </v-clicks>
+</v-clicks>
   </div>
 </div>
 
@@ -1670,7 +1634,6 @@ to: 確定
 subtitle: 課程 + 報價
 note: 「值不值得？」→「我要報名」
 
-<!-- -->
 
 ---
 
@@ -1678,7 +1641,7 @@ note: 「值不值得？」→「我要報名」
 
 <div class="flex flex-col items-center justify-center h-4/5 text-center">
   <div class="max-w-xl">
-    <v-clicks>
+<v-clicks>
     <div class="info-card border-purple-200 bg-purple-50 mb-6 py-6">
       <div class="font-black text-purple-700 text-xl mb-2">我負責</div>
       <p class="text-gray-700">把方法做到最清楚、最可執行</p>
@@ -1687,7 +1650,7 @@ note: 「值不值得？」→「我要報名」
       <div class="font-black text-orange-600 text-xl mb-2">你負責</div>
       <p class="text-gray-700">跟著做，然後用在你自己的工作上</p>
     </div>
-    </v-clicks>
+</v-clicks>
     <div v-click class="cta-text text-lg font-bold">如果你覺得這個交換合理，打 1</div>
   </div>
 </div>
@@ -1727,7 +1690,6 @@ chapter: 1
 title: 這是一門學科，不是一堂課
 subtitle: 就像心理學、物理學——持續不斷用到的
 
-<!-- -->
 
 ---
 
@@ -1844,7 +1806,7 @@ subtitle: 就像心理學、物理學——持續不斷用到的
 
 <div class="grid grid-cols-2 gap-10 h-4/5">
   <div class="flex flex-col justify-center space-y-4">
-    <v-clicks>
+<v-clicks>
     <div class="info-card border-purple-200">
       <div class="font-bold text-purple-700">9 章 × 90 部影片</div>
       <div class="text-gray-500 text-sm">步驟清楚，照做就會</div>
@@ -1857,7 +1819,7 @@ subtitle: 就像心理學、物理學——持續不斷用到的
       <div class="font-bold text-purple-700">Skill 範本庫</div>
       <div class="text-gray-500 text-sm">直接複製，立刻用</div>
     </div>
-    </v-clicks>
+</v-clicks>
   </div>
   <div class="flex flex-col justify-center">
     <v-click>
@@ -1904,7 +1866,7 @@ subtitle: 就像心理學、物理學——持續不斷用到的
 
 <div class="flex items-center justify-center h-4/5">
   <div class="max-w-lg w-full space-y-4">
-    <v-clicks>
+<v-clicks>
     <div class="info-card flex items-center gap-4">
       <div class="text-2xl">📝</div>
       <div>
@@ -1936,7 +1898,7 @@ subtitle: 就像心理學、物理學——持續不斷用到的
         <div class="text-gray-500 text-sm">課程、一對一諮詢、神秘禮</div>
       </div>
     </div>
-    </v-clicks>
+</v-clicks>
   </div>
 </div>
 
@@ -2095,7 +2057,7 @@ subtitle: 就像心理學、物理學——持續不斷用到的
 
 <div class="flex flex-col items-center justify-center h-4/5">
   <div class="max-w-lg w-full space-y-4">
-    <v-clicks>
+<v-clicks>
     <div class="info-card border-l-4 border-purple-500">
       <div class="font-bold text-purple-700">第一章節已上線</div>
       <div class="text-gray-500 text-sm mt-1">今天報名，今天就能開始</div>
@@ -2108,7 +2070,7 @@ subtitle: 就像心理學、物理學——持續不斷用到的
       <div class="font-bold text-red-600">4/15 後調漲至 $29,800</div>
       <div class="text-gray-500 text-sm mt-1">今天是最低價的最後機會</div>
     </div>
-    </v-clicks>
+</v-clicks>
   </div>
 </div>
 
@@ -2144,7 +2106,6 @@ subtitle: 就像心理學、物理學——持續不斷用到的
 ---
 layout: quote
 
-<!-- -->
 
 ---
 
@@ -2158,7 +2119,6 @@ to: 行動
 subtitle: CTA + QFA + 私域
 note: 「我要報名」→「我已經報名了」
 
-<!-- -->
 
 ---
 
@@ -2186,7 +2146,7 @@ note: 「我要報名」→「我已經報名了」
   <div class="flex flex-col justify-center">
     <h2 class="text-2xl font-black text-gray-800 mb-6">免費加入交流群</h2>
     <p class="text-gray-600 mb-4">你會收到：</p>
-    <v-clicks>
+<v-clicks>
     <div class="space-y-3">
       <div class="info-card flex items-center gap-3 py-3">
         <span class="text-xl">🎁</span>
@@ -2201,7 +2161,7 @@ note: 「我要報名」→「我已經報名了」
         <span class="text-gray-700">每週 AI 實用技巧</span>
       </div>
     </div>
-    </v-clicks>
+</v-clicks>
   </div>
   <div class="flex items-center justify-center">
     <div class="info-card w-48 h-48 flex items-center justify-center">
@@ -2227,7 +2187,6 @@ note: 「我要報名」→「我已經報名了」
 ---
 layout: quote
 
-<!-- -->
 
 ---
 
