@@ -1,14 +1,24 @@
 <!--
   階段轉場頁 — 白底 + 置中
 -->
+<script setup>
+const props = defineProps({
+  stage: { type: [String, Number], default: '' },
+  from: { type: String, default: '' },
+  to: { type: String, default: '' },
+  subtitle: { type: String, default: '' },
+  note: { type: String, default: '' }
+})
+</script>
+
 <template>
   <div class="slide-stage">
     <div class="top-bar"></div>
     <div class="stage-content">
       <div class="stage-line"></div>
-      <p class="stage-label">階段 {{ $slidev.frontmatter.stage }}</p>
-      <h1 class="stage-title">{{ $slidev.frontmatter.from }} → {{ $slidev.frontmatter.to }}</h1>
-      <p v-if="$slidev.frontmatter.subtitle" class="stage-sub">{{ $slidev.frontmatter.subtitle }}</p>
+      <p class="stage-label">階段 {{ stage }}</p>
+      <h1 class="stage-title">{{ from }} → {{ to }}</h1>
+      <p v-if="subtitle" class="stage-sub">{{ subtitle }}</p>
       <div class="stage-line"></div>
       <slot />
     </div>

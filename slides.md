@@ -1,17 +1,16 @@
-
-layout: default
 ---
-
-<div class="top-bar"></div>
-<div style="width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:80px 100px;">
-
-<div style="width:200px;height:2px;background:#E2E8F0;margin:0 auto 24px;"></div>
-
-<h1 style="font-family:'Space Grotesk','Noto Sans TC',sans-serif;font-size:4.5rem;font-weight:800;color:#0F172A;margin:0 0 20px 0;line-height:1.1;letter-spacing:-2px;">電馭工作流說明會</h1>
-
-<div style="width:200px;height:2px;background:#E2E8F0;margin:0 auto;"></div>
-
-</div>
+theme: none
+title: 電馭工作流說明會
+highlighter: shiki
+lineNumbers: false
+drawings:
+  persist: false
+transition: fade
+mdc: true
+layout: default
+fonts:
+  sans: Noto Sans TC
+  mono: Space Mono
 ---
 
 <div class="top-bar"></div>
@@ -89,7 +88,7 @@ layout: default
 <span class="slide-num">#02</span>
 
 ---
-layout: default
+layout: story
 label: 自我介紹
 visualLabel: 教學平台
 ---
@@ -110,7 +109,7 @@ visualLabel: 教學平台
 </div>
 
 ---
-layout: default
+layout: story
 label: 自我介紹
 visualLabel: 14 堂課程平台截圖
 ---
@@ -300,28 +299,14 @@ layout: default
 <span class="slide-num">#08</span>
 
 ---
-
-layout: default
----
-
-<div class="top-bar"></div>
-<div style="width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:80px 100px;">
-
-<p style="font-family:'Space Mono',monospace;color:#0369A1;font-size:1rem;margin:0 0 16px 0;">階段② 觀望 → 開放</p>
-
-<div style="width:200px;height:2px;background:#E2E8F0;margin:0 auto 24px;"></div>
-
-<h1 style="font-family:'Space Grotesk','Noto Sans TC',sans-serif;font-size:4.5rem;font-weight:800;color:#0F172A;margin:0 0 20px 0;line-height:1.1;letter-spacing:-2px;">三段人生故事</h1>
-
-<p style="color:#64748B;font-size:1.05rem;margin:0 0 24px 0;">從 20 幾歲到 48 歲的迴圈</p>
-
-<div style="width:200px;height:2px;background:#E2E8F0;margin:0 auto;"></div>
-
-</div>
+layout: chapter
+label: 階段② 觀望 → 開放
+title: 三段人生故事
+subtitle: 從 20 幾歲到 48 歲的迴圈
 ---
 
 ---
-layout: default
+layout: story
 label: 第一次低潮 · 背景
 visualLabel: 化妝品店照片
 ---
@@ -347,7 +332,7 @@ visualLabel: 化妝品店照片
 </div>
 
 ---
-layout: default
+layout: story
 label: 第一次低潮 · 細節
 visualLabel: 催收通知示意
 ---
@@ -376,7 +361,7 @@ visualLabel: 催收通知示意
 </div>
 
 ---
-layout: default
+layout: story
 label: 第一次低潮 · 轉折
 visualLabel: 書局示意圖
 ---
@@ -396,28 +381,14 @@ visualLabel: 書局示意圖
 </div>
 
 ---
-
-layout: default
----
-
-<div class="top-bar"></div>
-<div style="width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:80px 100px;">
-
-<p style="font-family:'Space Mono',monospace;color:#0369A1;font-size:1rem;margin:0 0 16px 0;">第二次低潮</p>
-
-<div style="width:200px;height:2px;background:#E2E8F0;margin:0 auto 24px;"></div>
-
-<h1 style="font-family:'Space Grotesk','Noto Sans TC',sans-serif;font-size:4.5rem;font-weight:800;color:#0F172A;margin:0 0 20px 0;line-height:1.1;letter-spacing:-2px;">合夥失敗</h1>
-
-<p style="color:#64748B;font-size:1.05rem;margin:0 0 24px 0;">以為找到了夥伴，結果賠了更多</p>
-
-<div style="width:200px;height:2px;background:#E2E8F0;margin:0 auto;"></div>
-
-</div>
+layout: chapter
+label: 第二次低潮
+title: 合夥失敗
+subtitle: 以為找到了夥伴，結果賠了更多
 ---
 
 ---
-layout: default
+layout: story
 label: 第二次低潮 · 細節
 visualLabel: 活動場地示意
 ---
@@ -440,7 +411,7 @@ visualLabel: 活動場地示意
 </div>
 
 ---
-layout: default
+layout: story
 label: 第二次低潮 · 細節
 visualLabel: 過年示意
 ---
@@ -460,28 +431,14 @@ visualLabel: 過年示意
 </div>
 
 ---
-
-layout: default
----
-
-<div class="top-bar"></div>
-<div style="width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:80px 100px;">
-
-<p style="font-family:'Space Mono',monospace;color:#0369A1;font-size:1rem;margin:0 0 16px 0;">第三次低潮</p>
-
-<div style="width:200px;height:2px;background:#E2E8F0;margin:0 auto 24px;"></div>
-
-<h1 style="font-family:'Space Grotesk','Noto Sans TC',sans-serif;font-size:4.5rem;font-weight:800;color:#0F172A;margin:0 0 20px 0;line-height:1.1;letter-spacing:-2px;">詐騙</h1>
-
-<p style="color:#64748B;font-size:1.05rem;margin:0 0 24px 0;">相信了不該相信的人</p>
-
-<div style="width:200px;height:2px;background:#E2E8F0;margin:0 auto;"></div>
-
-</div>
+layout: chapter
+label: 第三次低潮
+title: 詐騙
+subtitle: 相信了不該相信的人
 ---
 
 ---
-layout: default
+layout: story
 label: 第三次低潮 · 細節
 visualLabel: 資金盤示意
 ---
@@ -509,7 +466,7 @@ visualLabel: 資金盤示意
 </div>
 
 ---
-layout: default
+layout: story
 label: 反思
 visualLabel: 反思示意
 ---
@@ -534,7 +491,7 @@ visualLabel: 反思示意
 </div>
 
 ---
-layout: default
+layout: story
 label: 轉折決定
 visualLabel: 台南一人公司示意
 ---
@@ -556,7 +513,7 @@ visualLabel: 台南一人公司示意
 </div>
 
 ---
-layout: default
+layout: quote
 ---
 
 # 我同時當員工的時候，<br />才真正知道

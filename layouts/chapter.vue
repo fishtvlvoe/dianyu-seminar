@@ -1,14 +1,24 @@
 <!--
   章節轉場頁 — 白底 + 置中大字 + 藍色裝飾
 -->
+<script setup>
+const props = defineProps({
+  chapter: { type: [String, Number], default: '' },
+  label: { type: String, default: '' },
+  title: { type: String, default: '' },
+  subtitle: { type: String, default: '' },
+  emotion: { type: String, default: '' }
+})
+</script>
+
 <template>
   <div class="slide-chapter">
     <div class="top-bar"></div>
     <div class="chapter-content">
       <div class="chapter-line"></div>
-      <p class="chapter-label">{{ $slidev.frontmatter.label || '第' + $slidev.frontmatter.chapter + '幕' }}</p>
-      <h1 class="chapter-title">{{ $slidev.frontmatter.title }}</h1>
-      <p v-if="$slidev.frontmatter.subtitle" class="chapter-sub">{{ $slidev.frontmatter.subtitle }}</p>
+      <p class="chapter-label">{{ label || ('第' + chapter + '幕') }}</p>
+      <h1 class="chapter-title">{{ title }}</h1>
+      <p v-if="subtitle" class="chapter-sub">{{ subtitle }}</p>
       <div class="chapter-line"></div>
       <slot />
     </div>

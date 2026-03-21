@@ -1,16 +1,25 @@
 <!--
   故事/概念頁 — 白底 + 頂部藍條 + 左文右視覺區
 -->
+<script setup>
+const props = defineProps({
+  label: { type: String, default: '' },
+  visualLabel: { type: String, default: '圖解區域' },
+  visual: { type: [Boolean, String], default: true },
+  num: { type: String, default: '' }
+})
+</script>
+
 <template>
   <div class="slide-story">
     <div class="top-bar"></div>
     <div class="story-left">
-      <p v-if="$slidev.frontmatter.label" class="story-label">{{ $slidev.frontmatter.label }}</p>
+      <p v-if="label" class="story-label">{{ label }}</p>
       <slot />
     </div>
-    <div v-if="$slidev.frontmatter.visual !== false" class="story-right">
+    <div v-if="visual !== false" class="story-right">
       <div class="visual-area">
-        <span class="visual-area-label">{{ $slidev.frontmatter.visualLabel || '圖解區域' }}</span>
+        <span class="visual-area-label">{{ visualLabel }}</span>
       </div>
     </div>
   </div>
