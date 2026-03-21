@@ -18,7 +18,8 @@ const props = defineProps({
       <slot />
     </div>
     <div v-if="visual !== false" class="story-right">
-      <div class="visual-area">
+      <slot v-if="$slots.right" name="right" />
+      <div v-else class="visual-area">
         <span class="visual-area-label">{{ visualLabel }}</span>
       </div>
     </div>
