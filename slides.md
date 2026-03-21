@@ -73,6 +73,8 @@ layout: story
 label: 關於老魚
 icon: 🐟
 
+<!-- -->
+
 ---
 
 # Fish / 老魚
@@ -184,16 +186,22 @@ to: 開放
 subtitle: 三段失敗故事（全部保留不動）
 note: 「你憑什麼？」→「你跟我一樣，你也摔過」
 
+<!-- -->
+
 ---
 layout: chapter
 chapter: 1
 title: 三段人生故事
 subtitle: 從 20 幾歲到 48 歲的迴圈
 
+<!-- -->
+
 ---
 layout: story
 label: 第一次低潮
 icon: 🏪
+
+<!-- -->
 
 ---
 
@@ -210,6 +218,8 @@ icon: 🏪
 ---
 layout: story
 label: 第一次低潮 · 繼續
+
+<!-- -->
 
 ---
 
@@ -250,6 +260,8 @@ layout: story
 label: 轉折點
 icon: 📚
 
+<!-- -->
+
 ---
 
 # 沒錢，就去書局站著翻
@@ -269,10 +281,14 @@ chapter: 2
 title: 合夥失敗
 subtitle: 想幫助更多人，找了合夥人
 
+<!-- -->
+
 ---
 layout: story
 label: 第二次低潮 · 繼續
 icon: 💸
+
+<!-- -->
 
 ---
 
@@ -290,6 +306,8 @@ icon: 💸
 layout: story
 label: 第二次低潮 · 最低點
 icon: 🎊
+
+<!-- -->
 
 ---
 
@@ -310,9 +328,13 @@ chapter: 3
 title: 詐騙
 subtitle: 一次業配，改變了一切
 
+<!-- -->
+
 ---
 layout: story
 label: 第三次低潮
+
+<!-- -->
 
 ---
 
@@ -350,6 +372,8 @@ layout: story
 label: 反思
 icon: 🔄
 
+<!-- -->
+
 ---
 
 # 三次問題，出在同一個地方
@@ -366,6 +390,8 @@ icon: 🔄
 layout: story
 label: 轉折
 icon: 🧭
+
+<!-- -->
 
 ---
 
@@ -386,6 +412,8 @@ icon: 🧭
 ---
 layout: quote
 
+<!-- -->
+
 ---
 
 # 什麼工作有價值，什麼工作沒價值
@@ -398,15 +426,21 @@ to: 共鳴
 subtitle: 痛點 → 根因 → 新路徑
 note: 「原來不是我的問題」
 
+<!-- -->
+
 ---
 layout: chapter
 chapter: 1
 title: 你是不是也這樣？
 
+<!-- -->
+
 ---
 layout: story
 label: 痛點
 icon: ✍️
+
+<!-- -->
 
 ---
 
@@ -477,6 +511,8 @@ icon: ✍️
 ---
 layout: quote
 
+<!-- -->
+
 ---
 
 # 真正讓人崩潰的，不是忙。是忙了沒有結果。
@@ -531,6 +567,8 @@ layout: quote
 ---
 layout: quote
 
+<!-- -->
+
 ---
 
 # 不是你懶，是你被迫做太多不擅長的事
@@ -576,8 +614,12 @@ layout: chapter
 chapter: 2
 title: 問題不在你，是工作流程有問題
 
+<!-- -->
+
 ---
 layout: quote
+
+<!-- -->
 
 ---
 
@@ -617,6 +659,8 @@ layout: story
 label: 根因 ①
 icon: ❓
 
+<!-- -->
+
 ---
 
 # 需求不清
@@ -637,6 +681,8 @@ icon: ❓
 layout: story
 label: 根因 ②
 icon: 🧩
+
+<!-- -->
 
 ---
 
@@ -659,6 +705,8 @@ layout: story
 label: 根因 ③
 icon: 🔄
 
+<!-- -->
+
 ---
 
 # 每次從零開始
@@ -678,6 +726,8 @@ icon: 🔄
 ---
 layout: quote
 
+<!-- -->
+
 ---
 
 # 這不是我自己想出來的理論。
@@ -686,6 +736,8 @@ layout: quote
 
 ---
 layout: quote
+
+<!-- -->
 
 ---
 
@@ -696,6 +748,8 @@ layout: quote
 ---
 layout: quote
 
+<!-- -->
+
 ---
 
 # 問題不是要走哪條路——是從來沒有人幫我把路畫出來。
@@ -704,6 +758,8 @@ layout: quote
 
 ---
 layout: quote
+
+<!-- -->
 
 ---
 
@@ -777,6 +833,8 @@ layout: quote
 ---
 layout: quote
 
+<!-- -->
+
 ---
 
 # 工具會一直換，但這套思維不會過時
@@ -788,6 +846,8 @@ from: 開放
 to: 興奮
 subtitle: 社群許願 + 互動 + 四象限
 note: 「原來大家都一樣」→「他懂我」
+
+<!-- -->
 
 ---
 
@@ -880,6 +940,8 @@ note: 「原來大家都一樣」→「他懂我」
 
 ---
 layout: quote
+
+<!-- -->
 
 ---
 
@@ -1115,6 +1177,8 @@ layout: quote
 ---
 layout: quote
 
+<!-- -->
+
 ---
 
 # 這不是逃避工作，是把精力放在有價值的地方
@@ -1156,8 +1220,12 @@ to: 猶豫
 subtitle: Demo + 三面牆 + 見證
 note: 「我也做得到」
 
+<!-- -->
+
 ---
 layout: quote
+
+<!-- -->
 
 ---
 
@@ -1430,6 +1498,8 @@ layout: quote
 ---
 layout: quote
 
+<!-- -->
+
 ---
 
 # 第一面牆碎了：AI 沒用？不是。是你需要一套流程。
@@ -1507,6 +1577,8 @@ layout: quote
 
 ---
 layout: quote
+
+<!-- -->
 
 ---
 
@@ -1598,6 +1670,8 @@ to: 確定
 subtitle: 課程 + 報價
 note: 「值不值得？」→「我要報名」
 
+<!-- -->
+
 ---
 
 # 我負責教，你負責練
@@ -1652,6 +1726,8 @@ layout: chapter
 chapter: 1
 title: 這是一門學科，不是一堂課
 subtitle: 就像心理學、物理學——持續不斷用到的
+
+<!-- -->
 
 ---
 
@@ -2068,6 +2144,8 @@ subtitle: 就像心理學、物理學——持續不斷用到的
 ---
 layout: quote
 
+<!-- -->
+
 ---
 
 # 真正會下定決心的人，是相信自己的人
@@ -2079,6 +2157,8 @@ from: 確定
 to: 行動
 subtitle: CTA + QFA + 私域
 note: 「我要報名」→「我已經報名了」
+
+<!-- -->
 
 ---
 
@@ -2146,6 +2226,8 @@ note: 「我要報名」→「我已經報名了」
 
 ---
 layout: quote
+
+<!-- -->
 
 ---
 
