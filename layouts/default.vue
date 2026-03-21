@@ -1,15 +1,9 @@
 <!--
-  白底內容頁 — 頂部藍條 + 裝飾圓點
-  大部分投影片使用此 layout
+  白底內容頁 — 純白底，內容自行控制裝飾
 -->
 <template>
   <div class="slide-default">
-    <div class="top-bar"></div>
-    <div class="deco-dot deco-dot-1"></div>
-    <div class="deco-dot deco-dot-2"></div>
-    <div class="slide-content">
-      <slot />
-    </div>
+    <slot />
   </div>
 </template>
 
@@ -22,15 +16,9 @@
   overflow: hidden;
 }
 
-.slide-content {
-  position: relative;
-  z-index: 1;
-  padding: 80px 100px;
-  height: 100%;
-}
-
-.slide-content :deep(h1) {
+.slide-default :deep(h1) {
   color: var(--text-heading, #0F172A);
+  font-family: 'Space Grotesk', 'Noto Sans TC', sans-serif;
   font-size: 3rem;
   font-weight: 800;
   line-height: 1.15;
@@ -38,20 +26,10 @@
   letter-spacing: -0.02em;
 }
 
-.slide-content :deep(p) {
+.slide-default :deep(p) {
   color: var(--text-body, #475569);
+  font-family: 'Manrope', 'Noto Sans TC', sans-serif;
   font-size: 1.1rem;
   line-height: 1.5;
-}
-
-.slide-content :deep(ul) {
-  list-style: none;
-  padding: 0;
-}
-
-.slide-content :deep(li) {
-  color: var(--text-body, #475569);
-  font-size: 1.05rem;
-  line-height: 1.8;
 }
 </style>

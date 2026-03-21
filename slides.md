@@ -7,13 +7,10 @@ drawings:
   persist: false
 transition: fade
 mdc: true
+layout: default
 fonts:
   sans: Noto Sans TC
   mono: Space Mono
----
-
----
-layout: default
 ---
 
 <div class="top-bar"></div>
