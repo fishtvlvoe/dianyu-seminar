@@ -1,10 +1,9 @@
 <!--
-  深色轉場頁 — 深藍底 + 白字（報價/課程頁面共用）
-  對應 Pencil: I - Demo Screenshot 的深色風格
+  轉場/特殊頁 — 白底
 -->
 <template>
   <div class="slide-transition">
-    <div class="top-bar" style="background: var(--brand);"></div>
+    <div class="top-bar"></div>
     <div class="transition-content">
       <slot />
     </div>
@@ -15,9 +14,19 @@
 .slide-transition {
   width: 100%;
   height: 100%;
-  background: var(--bg-dark, #0F172A);
+  background: #FAFAFA !important;
   position: relative;
   overflow: hidden;
+}
+
+.top-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #0369A1;
+  z-index: 10;
 }
 
 .transition-content {
@@ -28,7 +37,8 @@
 }
 
 .transition-content :deep(h1) {
-  color: #FAFAFA;
+  color: #0F172A;
+  font-family: 'Space Grotesk', 'Noto Sans TC', sans-serif;
   font-size: 3rem;
   font-weight: 800;
   line-height: 1.2;
@@ -36,19 +46,9 @@
 }
 
 .transition-content :deep(p) {
-  color: rgba(255, 255, 255, 0.65);
+  color: #475569;
+  font-family: 'Manrope', 'Noto Sans TC', sans-serif;
   font-size: 1.05rem;
   line-height: 1.6;
-}
-
-.transition-content :deep(ul) {
-  list-style: none;
-  padding: 0;
-}
-
-.transition-content :deep(li) {
-  color: rgba(255, 255, 255, 0.65);
-  font-size: 1.05rem;
-  line-height: 1.8;
 }
 </style>

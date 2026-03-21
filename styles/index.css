@@ -41,16 +41,7 @@
   background: var(--bg-light, #FAFAFA) !important;
 }
 
-/* 深色 layout 覆蓋 */
-.slide-chapter,
-.slide-stage,
-.slide-transition {
-  background: var(--bg-dark, #0F172A) !important;
-}
-
-.slide-quote {
-  background: var(--bg-light, #FAFAFA) !important;
-}
+/* 所有 layout 統一白底 */
 
 h1, h2, h3 {
   font-family: var(--font-heading) !important;
