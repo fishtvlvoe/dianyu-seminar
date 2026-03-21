@@ -48,10 +48,11 @@ const props = defineProps({
 
 .story-left {
   flex: 1;
-  padding: 80px 60px 80px 100px;
+  padding: 60px 40px 60px 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 }
 
 .story-label {
@@ -62,8 +63,8 @@ const props = defineProps({
 }
 
 .story-right {
-  flex: 0 0 420px;
-  padding: 80px 60px 80px 0;
+  flex: 0 0 380px;
+  padding: 60px 40px 60px 0;
   display: flex;
   align-items: center;
 }
@@ -71,18 +72,18 @@ const props = defineProps({
 .slide-story :deep(h1) {
   color: #0F172A;
   font-family: 'Space Grotesk', 'Noto Sans TC', sans-serif;
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   font-weight: 800;
-  line-height: 1.15;
-  margin: 0 0 24px 0;
+  line-height: 1.2;
+  margin: 0 0 16px 0;
   letter-spacing: -0.02em;
 }
 
 .slide-story :deep(p) {
   color: #475569;
   font-family: 'Manrope', 'Noto Sans TC', sans-serif;
-  font-size: 1.05rem;
-  line-height: 1.6;
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 .visual-area {
