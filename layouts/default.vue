@@ -1,69 +1,57 @@
 <!--
-  預設白底內容頁 — 左上裝飾圓圈 + 右側可選裝飾圖示
-  用法：直接寫內容，不需指定 layout
+  白底內容頁 — 頂部藍條 + 裝飾圓點
+  大部分投影片使用此 layout
 -->
 <template>
-  <div class="default-layout deco-circles">
-    <div class="default-content">
+  <div class="slide-default">
+    <div class="top-bar"></div>
+    <div class="deco-dot deco-dot-1"></div>
+    <div class="deco-dot deco-dot-2"></div>
+    <div class="slide-content">
       <slot />
     </div>
   </div>
 </template>
 
 <style scoped>
-.default-layout {
+.slide-default {
   width: 100%;
   height: 100%;
-  background: var(--bg-light, #fafafa);
-  padding: var(--slide-padding, 60px 80px);
+  background: var(--bg-light, #FAFAFA);
   position: relative;
   overflow: hidden;
 }
 
-.default-content {
+.slide-content {
   position: relative;
   z-index: 1;
+  padding: 80px 100px;
   height: 100%;
 }
 
-.default-content :deep(h1) {
-  color: var(--text-dark, #1a1a1a);
-  font-size: 2.8rem;
-  font-weight: 900;
+.slide-content :deep(h1) {
+  color: var(--text-heading, #0F172A);
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.15;
   margin: 0 0 20px 0;
-  line-height: 1.3;
+  letter-spacing: -0.02em;
 }
 
-.default-content :deep(h2) {
-  color: var(--text-dark, #1a1a1a);
-  font-size: 1.8rem;
-  font-weight: 900;
-  margin: 0 0 16px 0;
+.slide-content :deep(p) {
+  color: var(--text-body, #475569);
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 
-.default-content :deep(p) {
-  color: var(--text-body, #4b5563);
-  font-size: 1.05rem;
-  line-height: 1.8;
-}
-
-.default-content :deep(ul) {
+.slide-content :deep(ul) {
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
-.default-content :deep(li) {
-  color: var(--text-body, #4b5563);
+.slide-content :deep(li) {
+  color: var(--text-body, #475569);
   font-size: 1.05rem;
-  line-height: 2;
-  padding-left: 0;
-}
-
-.default-content :deep(li::before) {
-  content: '→ ';
-  color: var(--brand-purple, #7c3aed);
-  font-weight: 700;
-  margin-right: 4px;
+  line-height: 1.8;
 }
 </style>

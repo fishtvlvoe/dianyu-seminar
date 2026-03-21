@@ -1,31 +1,27 @@
 <!--
-  金句頁 — 深藍底，大字金句，右側可選裝飾圖示
-  用法：
-  ---
-  layout: quote
-  icon: 💎（選填）
-  ---
-  # 金句內容
+  金句頁 — 白底 + 左側藍條 + 置中大字 + 底線
+  對應 Pencil: C - Key Statement
 -->
 <template>
-  <div class="quote-layout deco-circles-dark">
+  <div class="slide-quote">
+    <div class="left-bar"></div>
+    <div class="deco-dot deco-dot-1"></div>
+    <div class="deco-dot deco-dot-2"></div>
     <div class="quote-content">
       <slot />
-    </div>
-    <div v-if="$slidev.frontmatter.icon" class="quote-deco-icon" aria-hidden="true">
-      {{ $slidev.frontmatter.icon }}
     </div>
   </div>
 </template>
 
 <style scoped>
-.quote-layout {
+.slide-quote {
   width: 100%;
   height: 100%;
-  background: var(--bg-dark, #13112b);
+  background: var(--bg-light, #FAFAFA);
   display: flex;
   align-items: center;
-  padding: 60px 100px;
+  justify-content: center;
+  text-align: center;
   position: relative;
   overflow: hidden;
 }
@@ -33,33 +29,31 @@
 .quote-content {
   position: relative;
   z-index: 1;
-  max-width: 70%;
+  max-width: 65%;
 }
 
 .quote-content :deep(h1) {
-  color: white;
-  font-size: 2.8rem;
-  font-weight: 900;
-  line-height: 1.5;
+  color: var(--text-heading, #0F172A);
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.25;
   margin: 0;
 }
 
 .quote-content :deep(p) {
-  color: rgba(255, 255, 255, 0.45);
+  color: var(--text-body, #475569);
   font-size: 1.1rem;
   margin-top: 24px;
-  line-height: 1.8;
 }
 
-.quote-deco-icon {
-  position: absolute;
-  right: 60px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 14rem;
-  opacity: 0.06;
-  z-index: 0;
-  line-height: 1;
-  pointer-events: none;
+/* 金句底線 */
+.quote-content :deep(h1)::after {
+  content: '';
+  display: block;
+  width: 300px;
+  height: 6px;
+  background: var(--brand, #0369A1);
+  border-radius: 3px;
+  margin: 32px auto 0;
 }
 </style>
