@@ -93,8 +93,8 @@ icon: 🐟
 
 <div class="flex flex-col items-center justify-center h-4/5 text-center">
   <p class="text-2xl text-gray-700 leading-relaxed max-w-2xl">
-    如果你想了解目前的工作到底對你有什麼幫助，<br>
-    且可以用這個工作流來輔助，<br>
+    如果你想了解目前的工作到底對你有什麼幫助，<br />
+    且可以用這個工作流來輔助，<br />
     請先幫我打個 <strong class="text-5xl text-purple-600">1</strong>
   </p>
   <p class="cta-text mt-8 text-lg">確認大家今天過來的目的，建立共識</p>
@@ -927,19 +927,19 @@ layout: quote
   <v-clicks>
   <div class="info-card border-l-4 border-red-400">
     <div class="font-bold text-red-500 mb-2">傻問題</div>
-    <p class="text-gray-600 text-sm">沒給背景、沒給目標<br>「幫我寫文章」</p>
+    <p class="text-gray-600 text-sm">沒給背景、沒給目標<br />「幫我寫文章」</p>
   </div>
   <div class="info-card border-l-4 border-orange-400">
     <div class="font-bold text-orange-500 mb-2">笨問題</div>
-    <p class="text-gray-600 text-sm">有主題但沒受眾<br>「幫我寫行銷文章」</p>
+    <p class="text-gray-600 text-sm">有主題但沒受眾<br />「幫我寫行銷文章」</p>
   </div>
   <div class="info-card border-l-4 border-yellow-400">
     <div class="font-bold text-yellow-600 mb-2">蠢問題</div>
-    <p class="text-gray-600 text-sm">有受眾但沒格式<br>「幫我寫給上班族的文章」</p>
+    <p class="text-gray-600 text-sm">有受眾但沒格式<br />「幫我寫給上班族的文章」</p>
   </div>
   <div class="info-card border-l-4 border-purple-500 bg-purple-50">
     <div class="font-bold text-purple-600 mb-2">好問題 ✅</div>
-    <p class="text-gray-700 text-sm">背景 + 受眾 + 格式 + 限制<br>具體、可執行</p>
+    <p class="text-gray-700 text-sm">背景 + 受眾 + 格式 + 限制<br />具體、可執行</p>
   </div>
   </v-clicks>
 </div>
@@ -1082,19 +1082,19 @@ layout: quote
   <div class="flex flex-col items-center">
     <div class="w-20 h-20 rounded-full bg-purple-100 border-2 border-purple-400 flex items-center justify-center text-3xl mb-4">📥</div>
     <div class="font-bold text-purple-700">收集</div>
-    <div class="text-gray-500 text-sm mt-1 text-center">統一入口<br>不漏接</div>
+    <div class="text-gray-500 text-sm mt-1 text-center">統一入口<br />不漏接</div>
   </div>
   <div class="text-2xl text-gray-300">→</div>
   <div class="flex flex-col items-center">
     <div class="w-20 h-20 rounded-full bg-orange-100 border-2 border-orange-400 flex items-center justify-center text-3xl mb-4">🗂️</div>
     <div class="font-bold text-orange-600">整理</div>
-    <div class="text-gray-500 text-sm mt-1 text-center">AI 分類<br>自動摘要</div>
+    <div class="text-gray-500 text-sm mt-1 text-center">AI 分類<br />自動摘要</div>
   </div>
   <div class="text-2xl text-gray-300">→</div>
   <div class="flex flex-col items-center">
     <div class="w-20 h-20 rounded-full bg-green-100 border-2 border-green-400 flex items-center justify-center text-3xl mb-4">✅</div>
     <div class="font-bold text-green-600">決策</div>
-    <div class="text-gray-500 text-sm mt-1 text-center">你判斷<br>AI 執行</div>
+    <div class="text-gray-500 text-sm mt-1 text-center">你判斷<br />AI 執行</div>
   </div>
   </v-clicks>
 </div>
@@ -1159,7 +1159,7 @@ layout: quote
     <p class="text-2xl font-bold text-gray-800 mb-4">一段 3 分鐘的語音</p>
     <p class="text-xl text-gray-500">錄完之後我們一起看結果</p>
     <div v-click class="mt-8 quote-block max-w-md mx-auto">
-      不需要打字，不需要整理<br>
+      不需要打字，不需要整理<br />
       就這樣說話
     </div>
   </div>
@@ -1194,7 +1194,7 @@ layout: quote
   <div class="flex flex-col justify-center">
     <div class="label label-red mb-4">沒有 Skill</div>
     <div class="damage-card text-sm">
-      <p>把逐字稿貼給 AI，AI 給你一大段文字<br>沒有重點，沒有架構<br>自己還要再整理一遍</p>
+      <p>把逐字稿貼給 AI，AI 給你一大段文字<br />沒有重點，沒有架構<br />自己還要再整理一遍</p>
     </div>
   </div>
   <div class="flex flex-col justify-center">
@@ -1219,14 +1219,14 @@ layout: quote
   <div class="flex flex-col justify-center">
     <div class="label label-red mb-4">沒有 Skill</div>
     <div class="damage-card text-sm">
-      <p>一段一段貼給 AI 展開<br>每段都要重新調語氣<br>前後風格不一致</p>
+      <p>一段一段貼給 AI 展開<br />每段都要重新調語氣<br />前後風格不一致</p>
     </div>
   </div>
   <div class="flex flex-col justify-center">
     <div class="label label-purple mb-4">有 Skill</div>
     <div class="info-card border-purple-200 bg-purple-50 text-sm">
       <p class="font-bold text-purple-700 mb-2">一次輸出：</p>
-      <p class="text-gray-700">符合你風格的完整初稿<br>語氣一致，邏輯清楚<br>可直接貼上發布</p>
+      <p class="text-gray-700">符合你風格的完整初稿<br />語氣一致，邏輯清楚<br />可直接貼上發布</p>
     </div>
   </div>
 </div>
@@ -1239,7 +1239,7 @@ layout: quote
   <div class="flex flex-col justify-center">
     <div class="label label-red mb-4">沒有 Skill</div>
     <div class="damage-card text-sm">
-      <p>FB / IG / LINE 各自要重新改<br>每個平台格式不一樣<br>同樣的事做三次</p>
+      <p>FB / IG / LINE 各自要重新改<br />每個平台格式不一樣<br />同樣的事做三次</p>
     </div>
   </div>
   <div class="flex flex-col justify-center">
@@ -1524,7 +1524,7 @@ layout: quote
   </div>
   <div class="flex flex-col justify-center">
     <div class="label label-purple mb-4">完全小白</div>
-    <h2 class="text-2xl font-black text-gray-800 mb-4">開了兩堂課<br>一堂超過 100 學生</h2>
+    <h2 class="text-2xl font-black text-gray-800 mb-4">開了兩堂課<br />一堂超過 100 學生</h2>
     <div class="quote-block">
       「以前根本不知道怎麼開始，跟著流程走就做到了」
     </div>
@@ -1541,7 +1541,7 @@ layout: quote
   </div>
   <div class="flex flex-col justify-center">
     <div class="label label-orange mb-4">電商業者</div>
-    <h2 class="text-2xl font-black text-gray-800 mb-4">核對訂單<br>從半天 → 10 分鐘</h2>
+    <h2 class="text-2xl font-black text-gray-800 mb-4">核對訂單<br />從半天 → 10 分鐘</h2>
     <div class="quote-block">
       「我以為這輩子都要這樣了，沒想到一個流程就解決了」
     </div>
