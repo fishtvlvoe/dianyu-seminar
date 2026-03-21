@@ -41,13 +41,13 @@ layout: default
 <div class="deco-dot deco-dot-1"></div>
 <div class="deco-dot deco-dot-2"></div>
 
-<div style="padding:80px 100px;">
+<div style="padding:60px 100px;">
 
-<span class="tag tag-blue" style="width:fit-content;margin-bottom:32px;">今天你會帶走四個東西</span>
+<span class="tag tag-blue" style="width:fit-content;margin-bottom:20px;">今天你會帶走四個東西</span>
 
-<h1 style="font-size:3.2rem;font-weight:800;color:#0F172A;margin:0 0 40px 0;line-height:1.15;letter-spacing:-0.02em;">不管有沒有報名<br />前三個今天就是你的</h1>
+<h1 style="font-size:2.6rem;font-weight:800;color:#0F172A;margin:0 0 28px 0;line-height:1.15;letter-spacing:-0.02em;">不管有沒有報名<br />前三個今天就是你的</h1>
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
 
 <div class="card-outlined" style="display:flex;align-items:flex-start;gap:16px;padding:24px 28px;">
 <span style="font-family:'Space Mono',monospace;font-size:1.5rem;font-weight:700;color:#0369A1;min-width:32px;">01</span>
@@ -301,7 +301,7 @@ layout: default
 ---
 layout: chapter
 label: 階段② 觀望 → 開放
-title: 三段人生故事
+heading: 三段人生故事
 subtitle: 從 20 幾歲到 48 歲的迴圈
 ---
 
@@ -383,7 +383,7 @@ visualLabel: 書局示意圖
 ---
 layout: chapter
 label: 第二次低潮
-title: 合夥失敗
+heading: 合夥失敗
 subtitle: 以為找到了夥伴，結果賠了更多
 ---
 
@@ -433,7 +433,7 @@ visualLabel: 過年示意
 ---
 layout: chapter
 label: 第三次低潮
-title: 詐騙
+heading: 詐騙
 subtitle: 相信了不該相信的人
 ---
 

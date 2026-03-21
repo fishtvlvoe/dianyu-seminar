@@ -5,7 +5,7 @@
 const props = defineProps({
   chapter: { type: [String, Number], default: '' },
   label: { type: String, default: '' },
-  title: { type: String, default: '' },
+  heading: { type: String, default: '' },
   subtitle: { type: String, default: '' },
   emotion: { type: String, default: '' }
 })
@@ -17,7 +17,7 @@ const props = defineProps({
     <div class="chapter-content">
       <div class="chapter-line"></div>
       <p class="chapter-label">{{ label || ('第' + chapter + '幕') }}</p>
-      <h1 class="chapter-title">{{ title }}</h1>
+      <h1 class="chapter-title">{{ heading }}</h1>
       <p v-if="subtitle" class="chapter-sub">{{ subtitle }}</p>
       <div class="chapter-line"></div>
       <slot />
