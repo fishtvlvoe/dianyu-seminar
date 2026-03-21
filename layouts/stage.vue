@@ -17,13 +17,10 @@
       <h1 class="stage-title">{{ $slidev.frontmatter.from }} → {{ $slidev.frontmatter.to }}</h1>
       <p v-if="$slidev.frontmatter.subtitle" class="stage-subtitle">{{ $slidev.frontmatter.subtitle }}</p>
       <p v-if="$slidev.frontmatter.note" class="stage-note">{{ $slidev.frontmatter.note }}</p>
+      <slot />
     </div>
   </div>
 </template>
-
-<script setup>
-const props = defineProps()
-</script>
 
 <style scoped>
 .stage-layout {

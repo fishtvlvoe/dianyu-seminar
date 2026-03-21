@@ -18,6 +18,7 @@
       <h1 class="chapter-title">{{ $slidev.frontmatter.title }}</h1>
       <p v-if="$slidev.frontmatter.subtitle" class="chapter-subtitle">{{ $slidev.frontmatter.subtitle }}</p>
       <div class="divider"></div>
+      <slot />
     </div>
   </div>
 </template>
