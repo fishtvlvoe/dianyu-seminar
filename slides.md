@@ -389,43 +389,43 @@ layout: default
 <div class="deco-dot deco-dot-1"></div>
 <div class="deco-dot deco-dot-2"></div>
 
-<div style="padding:80px 100px;">
+<div style="padding:40px 80px;">
 
-<span style="font-family:'Space Mono',monospace;color:#0369A1;font-size:0.85rem;display:block;margin-bottom:16px;">現場互動</span>
+<span style="font-family:'Space Mono',monospace;color:#0369A1;font-size:0.85rem;display:block;margin-bottom:8px;">現場互動</span>
 
-<h1 style="font-size:3rem;font-weight:800;color:#0F172A;margin:0 0 36px 0;line-height:1.15;letter-spacing:-0.02em;">你有哪些？</h1>
+<h1 style="font-size:2.4rem;font-weight:800;color:#0F172A;margin:0 0 20px 0;line-height:1.15;letter-spacing:-0.02em;">你有哪些？</h1>
 
-<div style="display:flex;flex-direction:column;gap:12px;margin-bottom:36px;">
+<div style="display:flex;flex-direction:column;gap:8px;margin-bottom:20px;">
 
-<div class="card-outlined" style="padding:18px 28px;display:flex;align-items:center;gap:16px;">
+<div class="card-outlined" style="padding:14px 24px;display:flex;align-items:center;gap:14px;">
 <div class="i-carbon-book" style="width:18px;height:18px;color:#0369A1;flex-shrink:0;" />
-<p style="margin:0;font-size:1.05rem;color:#0F172A;font-weight:500;">買過課沒看完</p>
+<p style="margin:0;font-size:1rem;color:#0F172A;font-weight:500;">買過課沒看完</p>
 </div>
 
-<div class="card-outlined" style="padding:18px 28px;display:flex;align-items:center;gap:16px;">
+<div class="card-outlined" style="padding:14px 24px;display:flex;align-items:center;gap:14px;">
 <div class="i-carbon-bot" style="width:18px;height:18px;color:#0369A1;flex-shrink:0;" />
-<p style="margin:0;font-size:1.05rem;color:#0F172A;font-weight:500;">用了 AI 但不知道怎麼套工作</p>
+<p style="margin:0;font-size:1rem;color:#0F172A;font-weight:500;">用了 AI 但不知道怎麼套工作</p>
 </div>
 
-<div class="card-outlined" style="padding:18px 28px;display:flex;align-items:center;gap:16px;">
+<div class="card-outlined" style="padding:14px 24px;display:flex;align-items:center;gap:14px;">
 <div class="i-carbon-close-filled" style="width:18px;height:18px;color:#0369A1;flex-shrink:0;" />
-<p style="margin:0;font-size:1.05rem;color:#0F172A;font-weight:500;">貼提示詞結果不像人說的話</p>
+<p style="margin:0;font-size:1rem;color:#0F172A;font-weight:500;">貼提示詞結果不像人說的話</p>
 </div>
 
-<div class="card-outlined" style="padding:18px 28px;display:flex;align-items:center;gap:16px;">
+<div class="card-outlined" style="padding:14px 24px;display:flex;align-items:center;gap:14px;">
 <div class="i-carbon-moon" style="width:18px;height:18px;color:#0369A1;flex-shrink:0;" />
-<p style="margin:0;font-size:1.05rem;color:#0F172A;font-weight:500;">下班腦袋還在轉</p>
+<p style="margin:0;font-size:1rem;color:#0F172A;font-weight:500;">下班腦袋還在轉</p>
 </div>
 
-<div class="card-outlined" style="padding:18px 28px;display:flex;align-items:center;gap:16px;">
+<div class="card-outlined" style="padding:14px 24px;display:flex;align-items:center;gap:14px;">
 <div class="i-carbon-email" style="width:18px;height:18px;color:#0369A1;flex-shrink:0;" />
-<p style="margin:0;font-size:1.05rem;color:#0F172A;font-weight:500;">LINE + Email 永遠 999+</p>
+<p style="margin:0;font-size:1rem;color:#0F172A;font-weight:500;">LINE + Email 永遠 999+</p>
 </div>
 
 </div>
 
-<div style="background:#0369A1;border-radius:16px;padding:20px 40px;display:inline-block;">
-<p style="margin:0;font-family:'Space Grotesk','Noto Sans TC',sans-serif;font-size:1.8rem;font-weight:800;color:white;">有的打 1</p>
+<div style="background:#0369A1;border-radius:16px;padding:16px 36px;display:inline-block;">
+<p style="margin:0;font-family:'Space Grotesk','Noto Sans TC',sans-serif;font-size:1.6rem;font-weight:800;color:white;">有的打 1</p>
 </div>
 
 </div>
