@@ -44,6 +44,39 @@ layout: default
 <div class="deco-dot deco-dot-1"></div>
 <div class="deco-dot deco-dot-2"></div>
 
+<div style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:60px 100px;">
+
+<span style="font-family:'Space Mono',monospace;color:#0369A1;font-size:0.85rem;display:block;margin-bottom:16px;">拉椅子</span>
+
+<h1 style="font-size:2.8rem;font-weight:800;color:#0F172A;margin:0 0 32px 0;line-height:1.2;letter-spacing:-0.02em;">你會是我的老師，<br />我也會是你的老師</h1>
+
+<div style="background:#F0F9FF;border-radius:16px;padding:28px 32px;border-left:4px solid #0369A1;margin-bottom:28px;">
+<p style="margin:0;color:#334155;font-size:1.1rem;line-height:1.8;">我都會叫大家<span style="color:#0369A1;font-weight:700;">同學</span>，因為我們都是在學習的人。<br />你跟我學習，我也跟你學習。</p>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:10px;">
+<div style="display:flex;align-items:center;gap:12px;">
+<div class="i-carbon-gift" style="width:20px;height:20px;color:#0369A1;flex-shrink:0;" />
+<p style="margin:0;color:#475569;font-size:1.05rem;">今天我要送你<span style="font-weight:700;color:#0F172A;">四個東西</span></p>
+</div>
+<div style="display:flex;align-items:center;gap:12px;">
+<div class="i-carbon-checkmark-filled" style="width:20px;height:20px;color:#22C55E;flex-shrink:0;" />
+<p style="margin:0;color:#475569;font-size:1.05rem;">不管有沒有報名，<span style="font-weight:700;color:#0369A1;">前三個今天就是你的</span></p>
+</div>
+</div>
+
+</div>
+
+<span class="slide-num">#02</span>
+
+---
+layout: default
+---
+
+<div class="top-bar"></div>
+<div class="deco-dot deco-dot-1"></div>
+<div class="deco-dot deco-dot-2"></div>
+
 <div style="padding:60px 100px;">
 
 <span class="tag tag-blue" style="width:fit-content;margin-bottom:20px;">今天你會帶走四個東西</span>
@@ -648,6 +681,58 @@ visualLabel: 書局示意圖
 </template>
 
 ---
+layout: default
+---
+
+<div class="top-bar"></div>
+<div class="deco-dot deco-dot-1"></div>
+<div class="deco-dot deco-dot-2"></div>
+
+<div style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:60px 100px;">
+
+<span style="font-family:'Space Mono',monospace;color:#0369A1;font-size:0.85rem;display:block;margin-bottom:12px;">第一次低潮 · 之後</span>
+
+<h1 style="font-size:2.4rem;font-weight:800;color:#0F172A;margin:0 0 28px 0;line-height:1.2;letter-spacing:-0.02em;">一個人工作了很久</h1>
+
+<div style="display:flex;flex-direction:column;gap:12px;margin-bottom:28px;">
+
+<div style="display:flex;align-items:center;gap:20px;">
+<div style="display:flex;flex-direction:column;align-items:center;min-width:64px;">
+<span style="font-family:'Space Mono',monospace;font-size:1.4rem;font-weight:700;color:#0369A1;">2008</span>
+<div style="width:2px;height:20px;background:#E2E8F0;margin-top:4px;"></div>
+</div>
+<div class="card-outlined" style="flex:1;padding:16px 24px;display:flex;align-items:center;gap:12px;">
+<div class="i-carbon-user" style="width:18px;height:18px;color:#0369A1;flex-shrink:0;" />
+<p style="margin:0;color:#0F172A;font-size:1rem;">開始一個人工作，邊寫文章邊接案</p>
+</div>
+</div>
+
+<div style="display:flex;align-items:center;gap:20px;">
+<div style="display:flex;flex-direction:column;align-items:center;min-width:64px;">
+<span style="font-family:'Space Mono',monospace;font-size:1.4rem;font-weight:700;color:#0369A1;">2012</span>
+<div style="width:2px;height:20px;background:#E2E8F0;margin-top:4px;"></div>
+</div>
+<div class="card-outlined" style="flex:1;padding:16px 24px;display:flex;align-items:center;gap:12px;">
+<div class="i-carbon-education" style="width:18px;height:18px;color:#0369A1;flex-shrink:0;" />
+<p style="margin:0;color:#0F172A;font-size:1rem;">當上網路行銷老師，但負債問題沒解決</p>
+</div>
+</div>
+
+<div style="display:flex;align-items:center;gap:20px;">
+<div style="display:flex;flex-direction:column;align-items:center;min-width:64px;">
+<span style="font-family:'Space Mono',monospace;font-size:1.4rem;font-weight:700;color:#0369A1;">2017</span>
+</div>
+<div class="card-highlight" style="flex:1;padding:16px 24px;display:flex;align-items:center;gap:12px;">
+<div class="i-carbon-group" style="width:18px;height:18px;color:#0369A1;flex-shrink:0;" />
+<p style="margin:0;color:#0369A1;font-weight:600;font-size:1rem;">遇到合夥人，以為終於不用一個人扛了</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+---
 layout: chapter
 label: 第二次低潮
 heading: 合夥失敗
@@ -758,6 +843,55 @@ visualLabel: 過年示意
 </div>
 </div>
 </template>
+
+---
+layout: default
+---
+
+<div class="top-bar"></div>
+<div class="deco-dot deco-dot-1"></div>
+<div class="deco-dot deco-dot-2"></div>
+
+<div style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:60px 100px;">
+
+<span style="font-family:'Space Mono',monospace;color:#0369A1;font-size:0.85rem;display:block;margin-bottom:12px;">第二次低潮 · 之後</span>
+
+<h1 style="font-size:2.4rem;font-weight:800;color:#0F172A;margin:0 0:28px 0;line-height:1.2;letter-spacing:-0.02em;">想重新開始，<br />結果又掉進另一個坑</h1>
+
+<div style="display:flex;flex-direction:column;gap:12px;margin-bottom:24px;">
+
+<div class="card-outlined" style="padding:16px 24px;display:flex;align-items:flex-start;gap:14px;">
+<div class="i-carbon-location-heart" style="width:18px;height:18px;color:#0369A1;flex-shrink:0;margin-top:2px;" />
+<div>
+<p style="margin:0 0 4px 0;font-weight:700;color:#0F172A;font-size:1rem;">2019 — 認識前女友，搬到新竹</p>
+<p style="margin:0;color:#64748B;font-size:0.9rem;">想說換個環境，穩定下來</p>
+</div>
+</div>
+
+<div class="card-outlined" style="padding:16px 24px;display:flex;align-items:flex-start;gap:14px;">
+<div class="i-carbon-collaborate" style="width:18px;height:18px;color:#F59E0B;flex-shrink:0;margin-top:2px;" />
+<div>
+<p style="margin:0 0 4px 0;font-weight:700;color:#0F172A;font-size:1rem;">一起工作，感情開始出問題</p>
+<p style="margin:0;color:#64748B;font-size:0.9rem;">工作跟生活攪在一起，越來越不對勁</p>
+</div>
+</div>
+
+<div class="card-outlined" style="padding:16px 24px;display:flex;align-items:flex-start;gap:14px;">
+<div class="i-carbon-user" style="width:18px;height:18px;color:#0369A1;flex-shrink:0;margin-top:2px;" />
+<div>
+<p style="margin:0 0 4px 0;font-weight:700;color:#0F172A;font-size:1rem;">決定各自獨立工作</p>
+<p style="margin:0;color:#64748B;font-size:0.9rem;">繼續拍 YouTube 影片，接業配維持收入</p>
+</div>
+</div>
+
+</div>
+
+<div style="background:#FFFBEB;border-radius:12px;padding:16px 24px;border-left:4px solid #F59E0B;display:flex;align-items:center;gap:12px;">
+<div class="i-carbon-warning" style="width:18px;height:18px;color:#F59E0B;flex-shrink:0;" />
+<p style="margin:0;color:#92400E;font-size:0.95rem;">接到一個 YouTube 業配⋯⋯看起來是機會</p>
+</div>
+
+</div>
 
 ---
 layout: chapter
