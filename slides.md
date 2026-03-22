@@ -46,7 +46,7 @@ layout: default
 
 <div style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:60px 100px;">
 
-<span style="font-family:'Space Mono',monospace;color:#0369A1;font-size:0.85rem;display:block;margin-bottom:16px;">拉椅子</span>
+<span style="font-family:'Space Mono',monospace;color:#0369A1;font-size:0.85rem;display:block;margin-bottom:16px;">開場</span>
 
 <h1 style="font-size:2.8rem;font-weight:800;color:#0F172A;margin:0 0 32px 0;line-height:1.2;letter-spacing:-0.02em;">你會是我的老師，<br />我也會是你的老師</h1>
 
